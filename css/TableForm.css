@@ -1,0 +1,128 @@
+body {
+  background-color: #f8f6f0;
+  margin: 0 0 5px 0;
+  padding: 0;
+}
+
+header {
+  font-family: 'Lato', sans-serif;
+  font-size: 5em;
+  margin: 0;
+  color: #4a6741;
+}
+
+p {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  line-height: 1.4em;
+}
+
+p, ul {
+  color: #22311d;
+  font-family: 'Roboto', sans-serif;
+}
+
+header, p, ul {
+  text-align: center;
+}
+
+ul {
+  list-style-position: inside;
+  list-style-image: url(../images/icon-plus.png);
+  margin-top: 10px;
+  line-height: 1.4em;
+  font-size: 17px;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+  color: #22311d;
+  border-spacing: 8px;
+}
+
+table th, table tr, table td {
+  font-size: 17px;
+  border-right: solid #d7be69;
+  border-bottom: solid #d7be69;
+  border-width: 2px;
+}
+
+table th {
+  font-family: 'Lato', sans-serif;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+table td {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  width: 500px;
+}
+
+fieldset legend, fieldset label, fieldset span, fieldset option, fieldset select {
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+}
+
+fieldset p {
+  text-align: left;
+  margin-left: 10px;
+}
+
+fieldset input {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+fieldset select {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.member {
+  display: inline-block;
+}
+
+.member p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  margin-top: 15px;
+  margin-left: 25px;
+  text-align: left;
+}
+
+.member label, .submit input {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.submit {
+  display: inline-block;
+  margin-left: 5em;
+}
+
+.submit input {
+  border: none;
+  background-color: #d7be69;
+  font-weight: bold;
+  border-radius: 10px;
+  height: 30px;
+  width: 100px;
+  color: #22311d;
+}
+
+.submit input:hover {
+  background-color: #22311d;
+  color: #d7be69;
+}
